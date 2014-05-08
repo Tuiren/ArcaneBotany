@@ -1,0 +1,16 @@
+[
+{
+  "modid": "arcaneBotany",
+  "name": "Arcane Botany",
+  "description": "This mods adds lots of flowers and new items around botany into minecraft",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Empty2k12"],
+  "credits": "Everyone contributed to this mod! You guys rock!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

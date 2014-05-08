@@ -1,0 +1,35 @@
+#Blocks
+tile.blockScribersPitcher.name=Scriber's Pitcher
+tile.blockNitorRoot.name=Nitor Root
+tile.blockGhastAmaryllis.name=Ghast Amaryllis
+tile.blockEldritchCap.name=Eldritch Cap
+tile.blockGolemFern.name=Golem Fern
+tile.blockSilverwoodFence.name=Silverwood Fence
+tile.blockTaintedHedge.name=Tainted Hedge
+tile.blockPurificationLotus.name=Purification Lotus
+
+#Creative Tabs
+itemGroup.arcaneBotany=Arcane Botany
+
+#Wand Foci
+item.focusWatering.name=Watering Focus
+
+#Armor
+item.itemGardenersCap.name=Gardeners Cap
+item.itemGardenersChest.name=Gardeners Chest
+item.itemGardenersPants.name=Gardeners Pants
+item.itemGardenersBoots.name=Gardeners Boots
+
+#Items
+item.bottleInk.name=Ink Bottle
+item.gardenomicon.name=Gardenomicon
+item.ringofTheGardener.name=Ring of the Gardener
+
+#Gardenomicon Entrys
+gardenomicon.gardenomicon.factfile.1=The Gardenomicon holds everything you need to know abut botany. Every flower, every item, everything is written down here.
+
+
+#Misc
+gardeners_cloths.name=Garderners Cloths
+
+#//Having expermented with combining diffenernt plants you have created a plant that is capable of making a hungry node less hungry. Unfortunately you had not been able to make the plant convert the nde into a pure Node. Good enough
