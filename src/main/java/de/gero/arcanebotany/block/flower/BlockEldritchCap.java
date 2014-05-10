@@ -24,6 +24,8 @@ import net.minecraft.world.gen.feature.WorldGenBigMushroom;
  *
  */
 public class BlockEldritchCap extends BlockBush implements IGrowable {
+	
+	//FIXME finish
 
 	public BlockEldritchCap() {
 		setCreativeTab(ArcaneBotany.tabBotany);

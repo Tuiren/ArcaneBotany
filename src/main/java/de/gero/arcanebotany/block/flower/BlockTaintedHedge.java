@@ -22,9 +22,9 @@ import de.gero.arcanebotany.misc.ModInfo;
  * 25.04.2014, 09:31:53 
  *
  */
-public class BlockTaintedHedge extends BlockFlower implements ITileEntityProvider{
-
-	//When planted in a tainted biome thers a chance that the flower mutates into the tainted hedge which then can be harvested and used everywhere. When using it in a non taint biome it will slowly turn the biome into a tainted biome. Can be prevented with a pure node.
+public class BlockTaintedHedge extends BlockFlower implements ITileEntityProvider {
+	
+	//TODO new texture
 
 	public BlockTaintedHedge(int id) {
 		super(id);

@@ -13,6 +13,7 @@ public class ClientProxy extends CommonProxy {
 		//TODO rendereres
 	}
 
+	//FIXME add supporters to the list/load supporters from a file in the interwebz!
 	@Override
 	public void addModderCapes() {
 		String capeURL = "http://i.imgur.com/zbuangg.png";
@@ -31,10 +32,4 @@ public class ClientProxy extends CommonProxy {
 	public int addArmor(String armor) {
 		return RenderingRegistry.addNewArmourRendererPrefix(armor);
 	}
-	
-//	@Override
-//	public void openContent() {
-//		GuiGardenomicon.content = new Content
-//	}
-
 }

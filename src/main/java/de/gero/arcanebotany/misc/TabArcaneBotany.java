@@ -16,7 +16,7 @@ public class TabArcaneBotany extends CreativeTabs {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public Item getTabIconItem() {
-		return Item.getItemFromBlock(BotanyBlocks.scribers_pitcher);
+		return Item.getItemFromBlock(BotanyBlocks.tainted_hedge);
 	}
 
 }

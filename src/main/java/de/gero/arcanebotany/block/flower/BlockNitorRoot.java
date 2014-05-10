@@ -15,6 +15,8 @@ import de.gero.arcanebotany.ArcaneBotany;
 import de.gero.arcanebotany.misc.ModInfo;
 
 public class BlockNitorRoot extends BlockFlower {
+	
+	//TODO better texture!
 
 	public BlockNitorRoot(int id) {
 		super(id);

@@ -22,6 +22,8 @@ import net.minecraft.world.World;
  *
  */
 public class BlockGhastAmaryllis extends BlockFlower {
+	
+	//FIXME FINISH
 
 	public BlockGhastAmaryllis(int id) {
 		super(id);
@@ -36,7 +38,7 @@ public class BlockGhastAmaryllis extends BlockFlower {
 	
 	@Override
 	public void updateTick(World world, int x, int y, int z, Random random) {
-		//world.playSoundEffect(x + 0.5D, y + 1, z + 0.5D, "mob.ghast.scream", 1.0F, 1.0F);
+		//FIXME: SOUNDS! world.playSoundEffect(x + 0.5D, y + 1, z + 0.5D, "mob.ghast.scream", 1.0F, 1.0F);
 	}
 	
 	@Override

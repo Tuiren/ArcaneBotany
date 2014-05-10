@@ -29,6 +29,7 @@ public class ItemFocusWatering extends ItemFocusBasic {
 		setUnlocalizedName("focusWatering");
 	}
 
+	//FIXME REWORK!! Buggy thing is buggy!
 	@Override
 	public ItemStack onFocusRightClick(ItemStack wand, World world, EntityPlayer p, MovingObjectPosition movingobjectposition) {
 		boolean success = false;

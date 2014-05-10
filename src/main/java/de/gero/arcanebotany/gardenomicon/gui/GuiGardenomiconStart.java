@@ -25,6 +25,8 @@ import de.gero.arcanebotany.gardenomicon.misc.button.ButtonImage;
  */
 @SideOnly(Side.CLIENT)
 public class GuiGardenomiconStart extends GuiScreen {
+	
+	//TODO rework FIXME show pages with less then 5 buttons
 
 	public static final ResourceLocation texture = new ResourceLocation("arcanebotany", "textures/gui/gardenomicon.png");
 

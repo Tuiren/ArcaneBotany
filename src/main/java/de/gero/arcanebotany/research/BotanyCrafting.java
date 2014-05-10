@@ -18,6 +18,7 @@ public class BotanyCrafting {
 	public static IRecipe cobble;
 
 	public static void init() {
+		//TODO actual recipes!
 		gardenomicon = GameRegistry.addShapedRecipe(new ItemStack(BotanyItems.gardenomicon), "x", "y", 'x', new ItemStack(Items.book), 'y', new ItemStack(BotanyItems.inkBottle));
 		cobble = GameRegistry.addShapedRecipe(new ItemStack(Blocks.cobblestone), "xxx", "xxx", "xxx", 'x', new ItemStack(Blocks.cobblestone));
 	}

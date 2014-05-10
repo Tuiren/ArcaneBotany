@@ -27,7 +27,7 @@ import de.gero.arcanebotany.misc.ModInfo;
  */
 public class BlockGolemFern extends BlockBush implements ITileEntityProvider {
 
-	//Gives all golems in a 10 blocks radius a speed buff. Uses essentia from a nearby jar.
+	//TODO FIXME use essentia from nearby jar
 
 	public BlockGolemFern() {
 		super(Material.vine);
@@ -58,6 +58,8 @@ public class BlockGolemFern extends BlockBush implements ITileEntityProvider {
 		return icon;
 	}
 
+	
+	//FIXME colors in the inventory or colored texture instead of a gray one
 	public int getBlockColor() {
 		return 0x000000;
 	}

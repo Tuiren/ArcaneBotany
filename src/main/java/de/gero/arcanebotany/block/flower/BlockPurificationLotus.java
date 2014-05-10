@@ -35,7 +35,8 @@ public class BlockPurificationLotus extends BlockLilyPad implements ITileEntityP
 		setBlockName("blockPurificationLotus");
 		setStepSound(soundTypeGrass);
 	}
-
+	
+	//TODO FIXME colored texture instead of a gray one!
 	@SideOnly(Side.CLIENT)
 	@Override
 	public int getBlockColor() {

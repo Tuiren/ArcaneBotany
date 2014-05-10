@@ -39,7 +39,7 @@ public class TileTaintedHedge extends TileEntity {
 	@Override
 	public void updateEntity() {
 
-		//From TileNode Thanks Azanor!
+		//From TC TileNode.java Thanks Azanor!
 		if (worldObj.getBiomeGenForCoordsBody(this.xCoord, this.yCoord) != ThaumcraftWorldGenerator.biomeTaint) {
 			thaumcraft.common.lib.Utils.setBiomeAt(worldObj, this.xCoord, this.zCoord, ThaumcraftWorldGenerator.biomeTaint);
 		}

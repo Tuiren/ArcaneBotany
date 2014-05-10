@@ -16,6 +16,8 @@ import net.minecraft.util.StatCollector;
 
 public class TaintedHedgeDamage extends DamageSource {
 	
+	//FIXME no chat messages shown
+	
 	public TaintedHedgeDamage() {
 		super("taintedHedge");
 	}

@@ -57,6 +57,7 @@ public class BotanyResearch {
 	}
 
 	private static void addAspects(){
+		//TODO more aspects to everything!
 		//Items
 		ThaumcraftApi.registerObjectTag(ii(BotanyItems.wand_focus_watering), new int[]{0}, new AspectList().add(Aspect.WATER, 10).add(Aspect.MAGIC, 5).add(Aspect.CROP, 3));
 		ThaumcraftApi.registerObjectTag(ii(BotanyItems.gardeners_cap), new int[]{0}, new AspectList().add(Aspect.ARMOR, 5).add(ArcaneBotany.aspectHortus, 5).add(Aspect.PLANT, 2));
@@ -73,6 +74,8 @@ public class BotanyResearch {
 		ThaumcraftApi.registerObjectTag(ib(BotanyBlocks.golem_fern), new int[]{0}, new AspectList().add(Aspect.TRAVEL, 5).add(Aspect.CRYSTAL, 2).add(ArcaneBotany.aspectHortus, 2));
 		ThaumcraftApi.registerObjectTag(ib(BotanyBlocks.tainted_hedge), new int[]{0}, new AspectList().add(Aspect.AURA, 5).add(Aspect.DARKNESS, 2).add(ArcaneBotany.aspectHortus, 2));
 		ThaumcraftApi.registerObjectTag(ib(BotanyBlocks.ghast_amaryllis), new int[]{0}, new AspectList().add(Aspect.BEAST, 5).add(Aspect.SENSES, 2).add(ArcaneBotany.aspectHortus, 2));
+		
+		//TODO //Mobs
 	}
 
 	private static void addPage(){

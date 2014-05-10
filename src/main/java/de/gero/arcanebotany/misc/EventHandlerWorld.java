@@ -21,21 +21,22 @@ public class EventHandlerWorld {
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
-//	@SubscribeEvent
-//	public void onLivingUpdateEvent(LivingUpdateEvent event) {
-//		if (event.entity instanceof EntityPlayer)
-//		{
-//			EntityPlayer player = (EntityPlayer) event.entity;
-//			ItemStack heldItem = player.getHeldItem();
-//			if (heldItem != null && heldItem.itemID == Item.arrow.itemID) {
-//				player.capabilities.allowFlying = true;
-//			}
-//			else {
-//				player.capabilities.allowFlying = player.capabilities.isCreativeMode ? true : false;
-//			}
-//		}
-//	}
-	
+	//FIXME just wanted to keep that for later tffs and things!
+	//	@SubscribeEvent
+	//	public void onLivingUpdateEvent(LivingUpdateEvent event) {
+	//		if (event.entity instanceof EntityPlayer)
+	//		{
+	//			EntityPlayer player = (EntityPlayer) event.entity;
+	//			ItemStack heldItem = player.getHeldItem();
+	//			if (heldItem != null && heldItem.itemID == Item.arrow.itemID) {
+	//				player.capabilities.allowFlying = true;
+	//			}
+	//			else {
+	//				player.capabilities.allowFlying = player.capabilities.isCreativeMode ? true : false;
+	//			}
+	//		}
+	//	}
+
 	@SubscribeEvent
 	public void onInteract(PlayerInteractEvent event) {
 		if(event.action == Action.RIGHT_CLICK_BLOCK) {
@@ -51,13 +52,6 @@ public class EventHandlerWorld {
 					event.entityPlayer.worldObj.setBlock(event.x, event.y + 1, event.z, BotanyBlocks.purification_lotus);
 				}
 			}
-		}
-	}
-	
-	@SubscribeEvent
-	public void onEntityConstructing(EntityEvent.EntityConstructing event) {
-		if(event.entity instanceof EntityPlayerMP) {
-			
 		}
 	}
 }

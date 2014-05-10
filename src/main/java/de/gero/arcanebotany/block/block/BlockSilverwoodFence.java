@@ -14,12 +14,13 @@ import de.gero.arcanebotany.ArcaneBotany;
  *
  */
 public class BlockSilverwoodFence extends BlockFence {
+	
+	//FIXME: Getting the texture after TC loads somehow
 
 	public BlockSilverwoodFence() {
 		super(new ResourceLocation("thaumcraft", "textures/blocks/planks_silverwood.png").getResourcePath(), Material.wood);
 		setCreativeTab(ArcaneBotany.tabBotany);
 		setBlockName("blockSilverwoodFence");
-		//setBlockTextureName(new ResourceLocation("thaumcraft", "textures/blocks/planks_silverwood.png").getResourcePath());
 	}
 
 	public boolean canConnectFenceTo(IBlockAccess par1IBlockAccess, int par2, int par3, int par4) {

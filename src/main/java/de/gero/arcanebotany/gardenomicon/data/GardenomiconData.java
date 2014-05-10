@@ -17,6 +17,8 @@ import de.gero.arcanebotany.research.BotanyCrafting;
  *
  */
 public enum GardenomiconData {
+	
+	//TODO data for all the things
 
 	GARDENOMICON1(new Content(StatCollector.translateToLocal("item.gardenomicon.name"), new ItemStack(BotanyItems.gardenomicon))
 	.addPage(new Page(new PageTypeFactFile(new ItemStack(BotanyItems.gardenomicon), StatCollector.translateToLocal("gardenomicon.gardenomicon.factfile.1"))))

@@ -20,6 +20,8 @@ import de.gero.arcanebotany.ArcaneBotany;
 import de.gero.arcanebotany.misc.ModInfo;
 
 public class BlockScribersPitcher extends BlockFlower {
+	
+	//TODO change the Scriber's Pitcher to use the new Ink Bottle Instead of dropping ink
 
 	public BlockScribersPitcher(int id) {
 		super(id);

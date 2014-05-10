@@ -42,9 +42,6 @@ public class ArcaneBotany {
 	public static CreativeTabs tabBotany = new TabArcaneBotany("arcaneBotany");
 
 	public static Aspect aspectHortus;
-	
-	
-	//TODO a silent bat for me which follows me and helps me in the fight
 
 	@EventHandler
 	public void init(FMLPreInitializationEvent event) {

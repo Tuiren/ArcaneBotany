@@ -10,6 +10,8 @@ import de.gero.arcanebotany.misc.ConfigHandler;
 
 public class CheatAspectsCommand extends CommandBase {
 
+	//TODO localisation
+
 	@Override
 	public String getCommandName() {
 		return "cheataspects";
@@ -24,15 +26,16 @@ public class CheatAspectsCommand extends CommandBase {
 	public void processCommand(ICommandSender par1CommandSender, String[] par2String) {
 		if(par1CommandSender instanceof EntityPlayer) {
 			EntityPlayer player=(EntityPlayer)par1CommandSender;
-		for(Aspect as : Aspect.aspects.values()) {
-			Thaumcraft.proxy.getResearchManager().completeAspect(player, as, (short) 999);
-		}
-		player.addChatComponentMessage(new ChatComponentText("Added 999 research to all aspects"));
+			for(Aspect as : Aspect.aspects.values()) {
+				Thaumcraft.proxy.getResearchManager().completeAspect(player, as, (short) 999);
+			}
+			player.addChatComponentMessage(new ChatComponentText("Added 999 research to all aspects"));
 		}
 	}
 
 	@Override
 	public boolean canCommandSenderUseCommand(ICommandSender par1iCommandSender) {
+		//FIXME usable as OP!
 		return par1iCommandSender.getCommandSenderName().equals("Empty2k12");
 	}
 }

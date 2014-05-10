@@ -6,11 +6,11 @@ package de.gero.arcanebotany.block.machinery;
  *
  */
 public class BlockWandAspectCollectorTODO {
+	
+	//TODO Draws in aspect shards dropped by mobs or flowers. Slowly recharges wand.
 
 	public BlockWandAspectCollectorTODO() {
-		// TODO Auto-generated constructor stub
+		
 	}
-	
-	//Draws in aspect shards dropped by mobs or flowers. Slowly recharges wand.
 
 }
