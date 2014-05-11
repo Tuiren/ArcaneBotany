@@ -42,6 +42,13 @@ public class ArcaneBotany {
 	public static CreativeTabs tabBotany = new TabArcaneBotany("arcaneBotany");
 
 	public static Aspect aspectHortus;
+	
+	/*
+	 * TODO list
+	 * setHarvestLevel("axe", 0); into Blocks that require it
+	 * Connected Textures
+	 * 
+	 * */
 
 	@EventHandler
 	public void init(FMLPreInitializationEvent event) {

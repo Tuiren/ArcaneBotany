@@ -35,16 +35,14 @@ public class GardenersArmor extends ItemArmor implements IVisDiscountGear {
 		return slot == 2 ? ModInfo.ID + ":textures/armor/gardenersCloth2.png" : ModInfo.ID + ":textures/armor/gardenersCloth1.png";
 	}
 
-	//FIXME buff vis discounts!
 	@Override
 	public int getVisDiscount(ItemStack stack, EntityPlayer player, Aspect aspect) {
-		return armorType == 3 ? 3 : 4;
+		return armorType == 3 ? 1 : 2;
 	}
 
-	//FIXME buff vis discounts!
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer par2EntityPlayer, List list, boolean par4) {
-		list.add("§3" + StatCollector.translateToLocal("tc.visdiscount") + ": " + (armorType == 3 ? 3 : 4) + "%");
+		list.add("§3" + StatCollector.translateToLocal("tc.visdiscount") + ": " + (armorType == 3 ? 1 : 2) + "%");
 	}
 
 

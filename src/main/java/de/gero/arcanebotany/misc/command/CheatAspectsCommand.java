@@ -33,9 +33,8 @@ public class CheatAspectsCommand extends CommandBase {
 		}
 	}
 
-	@Override
-	public boolean canCommandSenderUseCommand(ICommandSender par1iCommandSender) {
-		//FIXME usable as OP!
-		return par1iCommandSender.getCommandSenderName().equals("Empty2k12");
+	public int getRequiredPermissionLevel() {
+		return 2;
 	}
+
 }

@@ -11,5 +11,6 @@ public class ConfigValues {
 
 	public static Boolean allowHortusAspect;
 	public static int ticksForPurificationLotus;
+	public static int secondsTillGolemFernSucksNewEssentia;
 
 }

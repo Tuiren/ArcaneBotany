@@ -7,7 +7,7 @@ package de.gero.arcanebotany.items.items;
  */
 public class ItemFallAbsorber {
 
-	//TODO has a durability of XXX when the player would get falldamage the item gets damaged instead. 10 blocks falldistance = 10 damage
+	//TODO has a durability of x when the player would get falldamage the item gets damaged instead. 10 blocks falldistance = 10 damage
 
 	public ItemFallAbsorber() {
 		// TODO Auto-generated constructor stub

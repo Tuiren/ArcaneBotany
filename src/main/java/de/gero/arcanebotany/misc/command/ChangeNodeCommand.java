@@ -17,7 +17,7 @@ import thaumcraft.common.tiles.TileJarNode;
  */
 
 public class ChangeNodeCommand extends CommandBase {
-	
+
 	//TODO localisation
 
 	@Override
@@ -75,10 +75,8 @@ public class ChangeNodeCommand extends CommandBase {
 		}
 	}
 
-	@Override
-	public boolean canCommandSenderUseCommand(ICommandSender par1iCommandSender) {
-		//FIXME usable for OPS!
-		return par1iCommandSender.getCommandSenderName().equals("Empty2k12");
+	public int getRequiredPermissionLevel() {
+		return 2;
 	}
 
 	private String output(TileJarNode jar){

@@ -35,25 +35,6 @@ public class BlockPurificationLotus extends BlockLilyPad implements ITileEntityP
 		setBlockName("blockPurificationLotus");
 		setStepSound(soundTypeGrass);
 	}
-	
-	//TODO FIXME colored texture instead of a gray one!
-	@SideOnly(Side.CLIENT)
-	@Override
-	public int getBlockColor() {
-		return new Color(255, 215, 0).getRGB();
-	}
-
-	@SideOnly(Side.CLIENT)
-	@Override
-	public int getRenderColor(int meta) {
-		return new Color(255, 215, 0).getRGB();
-	}
-
-	@SideOnly(Side.CLIENT)
-	@Override
-	public int colorMultiplier(IBlockAccess acces, int x, int y, int z) {
-		return new Color(255, 215, 0).getRGB();
-	}
 
 	@Override
 	public TileEntity createNewTileEntity(World var1, int var2) {

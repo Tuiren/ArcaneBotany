@@ -58,22 +58,6 @@ public class BlockGolemFern extends BlockBush implements ITileEntityProvider {
 		return icon;
 	}
 
-	
-	//FIXME colors in the inventory or colored texture instead of a gray one
-	public int getBlockColor() {
-		return 0x000000;
-	}
-
-	@SideOnly(Side.CLIENT)
-	public int getRenderColor(int p_149741_1_) {
-		return this.getBlockColor();
-	}
-
-	@SideOnly(Side.CLIENT)
-	public int colorMultiplier(IBlockAccess p_149720_1_, int p_149720_2_, int p_149720_3_, int p_149720_4_) {
-		return 0xA52A2A;
-	}
-
 	@Override
 	public TileEntity createNewTileEntity(World world, int meta) {
 		return new TileGolemFern();

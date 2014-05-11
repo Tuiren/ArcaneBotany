@@ -22,6 +22,7 @@ public class ConfigHandler {
 		//Booleans
 		ConfigValues.allowHortusAspect = config.get("Miscellaneous", "Allow Hortus(Garden) Aspect:", true).getBoolean(true);
 		ConfigValues.ticksForPurificationLotus = config.get("Miscellaneous", "Ticks for the Purification Lotus to repair the Node:", 12000).getInt();
+		ConfigValues.secondsTillGolemFernSucksNewEssentia = config.get("Miscellaneous", "Seconds till the golem fern draws in new essentia (Set to -1 to disable)", 120).getInt();
 		
 		config.save();
 	}
